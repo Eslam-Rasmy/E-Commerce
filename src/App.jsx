@@ -25,6 +25,7 @@ import WithContextProvider from "./Components/Context/WithContext";
 import ForgetPass from "./Components/ForgetPass/ForgetPass";
 import VerifyCode from "./Components/VerifyCode/VerifyCode";
 import ResetPass from "./Components/ResetPass/ResetPass";
+import 'flowbite';
 function App() {
 
   const queryClient = new QueryClient()
